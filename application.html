@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Application Form</title>
+</head>
+
+<body>
+	<p align="center">
+		<a href="index.html">Homepage</a> |
+		<a href="blog.html">Blog</a> |
+		<a href="gallery.html">Gallery</a> |
+		<a href="report.html">Students Data</a> |
+		<a href="application.html">Application form</a> |
+		<a href="contact.html">Contact</a> |
+		<a href="resources.html">Resources</a>
+	</p>
+
+	<h1 align="center">Application Form</h1>
+
+	<form>
+		<fieldset>
+			<legend><b>Personal Information</b></legend>
+			<label>Name:</label>
+			<input type="text" name="name"><br><br>
+			<label>Email:</label>
+			<input type="email" name="email"><br><br>
+			<label>Skype Id:</label>
+			<input type="text" name="skypeId"><br><br>
+			<label>Education/Degree:</label>
+			<input type="text" name="education"><br><br>
+
+		</fieldset><br>
+
+		<fieldset>
+			<legend><b>Freelancing Information</b></legend>
+			<label>Which Platforms do you use for Freelancing?</label><br>
+			<input type="checkbox" name="platform">Upwork
+			<input type="checkbox" name="platform">Freelancer
+			<input type="checkbox" name="platform">Elancer
+			<input type="checkbox" name="platform">Reference based work
+			<input type="checkbox" name="platform">Other?<input type="text"><br><br>
+			<label>Which Clients do you serve?</label><br>
+			<input type="checkbox" name="clients">Foreign
+			<input type="checkbox" name="clients">Local<br><br>
+			<label>Which is your core area?</label><br>
+			<input type="radio" name="core area">Writer
+			<input type="radio" name="core area">Developer
+			<input type="radio" name="core area">Designer
+			<input type="radio" name="core area">Software Developer
+			<input type="radio" name="core area">Android Developer
+			<input type="radio" name="core area">Other?<input type="text"><br><br>
+
+		</fieldset><br>
+		<label>What kind of training are you interested ?</label><br>
+		<select name="training type">
+			<option value="remote">Remote training</option>
+			<option value="office">Office training</option>
+			<option value="home">Home training</option>
+		</select>
+		<br><br>
+
+		<label>Do you want to say something about this website?</label><br>
+		<textarea name="comment" cols="60" rows="10"></textarea>
+
+		<input type="submit" value="Submit Form">
+		<input type="reset">
+	</form>
+	<hr>
+	<p align="center">&copy; Copyright 2019. www.myfirstwebsite.com</p>
+</body>
+
+</html>
